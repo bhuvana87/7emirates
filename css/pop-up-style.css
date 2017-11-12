@@ -1,0 +1,94 @@
+.pop-up-wrapper div { 
+    font-family: Verdana, Helvetica; 
+    font-size: 10pt; 
+} 
+.pop-up { 
+   cursor: url(../pop-up/graphics/zoomin.cur), pointer; 
+    outline: none; 
+    text-decoration: none; 
+} 
+
+.pop-up-active-anchor img { 
+   visibility: hidden; 
+} 
+.pop-up img { 
+   border:1px solid #cfd0cd; 
+
+margin-bottom:15px;
+
+} 
+.pop-up:hover img { 
+  border:1px solid #cfd0cd; 
+} 
+
+.pop-up-wrapper, .drop-shadow { 
+   background: white; 
+} 
+.pop-up-image { 
+    border-bottom: 1px solid white; 
+} 
+.pop-up-image-blur { 
+} 
+.pop-up-caption { 
+    display: none; 
+    text-align:center; 
+    border-bottom: 1px solid white; 
+    font-family: Verdana, Helvetica; 
+    font-size: 10pt; 
+    padding: 5px; 
+    background-color: #f6f6f6; 
+   color:#333333;
+} 
+.pop-up-loading { 
+    display: block; 
+   color: black; 
+   font-size: 8pt; 
+   font-family: sans-serif; 
+   font-weight: bold; 
+    text-decoration: none; 
+   padding: 2px; 
+   border: 1px solid black; 
+    background-color: white; 
+     
+    padding-left: 22px; 
+    background-image: url(pop-up/graphics/loader.white.gif); 
+    background-repeat: no-repeat; 
+    background-position: 3px 1px; 
+} 
+
+a.pop-up-credits, 
+a.pop-up-credits i { 
+    padding: 2px; 
+    color: silver; 
+    text-decoration: none; 
+   font-size: 10px; 
+} 
+a.pop-up-credits:hover, 
+a.pop-up-credits:hover i { 
+    color: white; 
+    background-color: gray; 
+} 
+a.pop-up-full-expand { 
+   background: url(pop-up/graphics/fullexpand.gif) no-repeat; 
+   display: block; 
+   margin: 0 10px 10px 0; 
+   width: 34px; 
+   height: 34px; 
+} 
+.pop-up-overlay { 
+   display: none; 
+} 
+
+/* Mac-style close button */ 
+.closebutton { 
+   position: relative; 
+   top: -15px; 
+   left: 15px; 
+   width: 30px; 
+   height: 30px; 
+   cursor: pointer; /* w3c */ 
+   background: url(../pop-up/graphics/close.png); 
+   /* For IE6, remove background and add filter */ 
+   _background: none; 
+   _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pop-up/graphics/close.png', sizingMethod='scale'); 
+}

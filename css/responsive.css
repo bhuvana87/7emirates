@@ -1,0 +1,316 @@
+/* Media Queries */
+
+
+
+@media screen and (min-width:1080px) {
+article.map-events {
+	margin: 0 15px 20px 20px !important;
+	max-width: 28%;
+	height: 160px;
+}
+.btm-cont-inner {
+	height: 165px;
+}
+
+.menu ul {
+	text-align: right;
+}
+.menu li {
+	padding: 0;
+	margin: 0;
+}
+.menu li a {
+	padding: 16px 12px 15px 11px;
+}
+
+.menu>ul ul.subuls {
+	top: 58px;
+}
+}
+ @media screen and (max-width:800px) {
+.footer {
+	text-align: center;
+}
+.footer span {
+	float: none;
+	display: block;
+}
+.footer i {
+	float: none;
+	display: block;
+}
+.signup-form input[type=password], .signup-form input[type=text]{
+ width:60%;
+}
+}
+@media screen and (min-width:940px) and (max-width:1079px) {
+.cb-slideshow {
+	top: 50px;
+	right: 55px;
+}
+.banner-img {
+	margin: 64px 0 20px 0;
+}
+}
+@media screen and (min-width:640px) and (max-width:1079px) {
+.home-btm-content article.map-events {
+	margin: 0 15px 20px 15px !important;
+	width: 26% !important;
+}
+.home-btm-content article {
+
+	margin: 18px 0 0 6px;
+}
+.home-btm-content article a {
+	font-size: 13px;
+}
+.home-btm-content:after {
+	width: 100% !important;
+}
+}
+@media screen and (max-width:1079px) {
+.main-inner {
+	width: 90% !important;
+}
+.home-btm-content, .nbs-flexisel-container, .footer, .header-top-cont {
+	width: 90%;
+}
+
+.home-btm-content label {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+.btm-cont-inner {
+height:180px !important;
+}
+#ticker img{
+width:35%;
+}
+.btm-cont-inner strong {
+	font-size: 15px;
+}
+.ticker strong {
+	font-size: 13px;
+}
+.btm-cont-inner span {
+	padding: 0;
+}
+input {
+	width: 80%;
+}
+}
+ @media screen and (max-width:1079px) {
+.cb-slideshow li div {
+	top: 100px;
+	right: 5%;
+}
+.home-btm-content:after {
+	width: 99.4% !important;
+}
+ul.sports li {
+	width: 30%;
+}
+}
+@media screen and (max-width:870px) {
+.vission {
+	width: 90%;
+}
+.vis, .mision {
+	width: 95%;
+	float: none;
+	display: block;
+	margin: 10px 0;
+}
+.dining-right label{
+width:100%;	
+}
+}
+@media screen and (min-width:640px) and (max-width:870px) {
+.home-btm-content article a {
+	font-size: 12px;
+	line-height: 15px;
+}
+}
+@media screen and (min-width:430px) and (max-width:639px) {
+.home-btm-content article.map-events {
+	width: 60% !important;
+	margin: 0 15px 20px 15px !important;
+}
+.home-btm-content article {
+	width: 27%;
+	margin: 18px 0 0 6px;
+}
+.home-btm-content article a {
+	font-size: 13px;
+}
+}
+@media screen and (max-width:480px) {
+/*.banner-img{
+	display:none;	
+	}*/
+	.logo{
+		width:25%;
+		border:none;
+	}
+	.social-media-links{
+	padding-left:0;	
+	}
+	.social-media-links img{
+	width:17%;	
+	}
+	.logo:after{
+	border:none;	
+	}
+.tours-inner-links a {
+	display: block;
+	margin: 0 0 10px 0;
+}
+
+.home-btm-content article.map-events {
+	width: 86% !important;
+	margin: 0 0 20px 0 !important;
+}
+.home-btm-content article {
+	width: 60%;
+	margin: 18px 0 0 0;
+}
+.home-btm-content article a {
+	font-size: 13px;
+}
+.home-btm-content {
+	width: 87%;
+}
+.home-btm-content:after {
+	width: 98.9% !important;
+}
+input[type=text], input[type=password], input[type=checkbox], .login-cont input[type="text"] {
+	width: 78%;
+	display: block;
+	margin: 0 auto;
+}
+input[type=file]{
+width:80%;	
+}
+.book-tours textarea{
+	display:block;
+width:97% !important;	
+margin: 0 auto;
+}
+.mice-experts {
+	display: block;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+.mice-experts img {
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+}
+ul.sports li {
+	width: 100% !important;
+	display: block;
+}
+.cb-slideshow li div h3 {
+	font-size: 50px;
+}
+.chat {
+	width: 70%;
+}
+.banner-img {
+	min-height:100px;
+}
+.main-inner h1{
+font-size:26px;	
+}
+.dining-left{
+	width:100%;
+}
+.dining-right, .dining-right label, .dining-right textarea {
+	width:100% !important;
+}
+.dining-right select{
+width:97.5% !important;	
+}
+.dining-right span.img-right{
+margin:0;	
+}
+.dining-right input[type="submit"], input[type="reset"]{
+	margin:10px 0 0 0;
+}
+#photo-gallery img{
+	width:30%;
+		
+	}
+	#photo-gallery .popup_heading{
+	margin:0 ;	
+	}
+#push li{
+display:block;
+margin:10px auto;	
+}
+
+}
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 768px) {
+.r-tabs .r-tabs-nav {
+	display: none;
+}
+.r-tabs .r-tabs-accordion-title {
+	display: block;
+}
+.contact-right {
+	display: block;
+	float: none;
+	clear: both;
+	padding: 20px 0 0 0;
+}
+.contact-right iframe {
+	width: 100%;
+}
+.main-inner dt {
+	display: table-row;
+	width: 100%;
+}
+.main-inner dd {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding: 30px 0 0 0 !important;
+	text-align: left;
+}
+.enquiry-form label, .tour-guides label, label,.signup-form  label {
+	width: 100%;
+}
+.enquiry-form input[type=text], .tour-guides input[type=text], .main-inner input[type=text], input[type=password], input[type=checkbox], 
+.signup-form input[type=password],.login-cont input[type=password], .signup-form input[type=text] {
+	width: 95%;
+	display: block;
+	margin: 0;
+}
+.dining-right textarea{
+width:98%;
+display:block;	
+}
+.signup-form select{
+width:98%;	
+}
+.enquiry-form textarea, .tour-guides textarea, textarea {
+	width: 98%;
+}
+ul.sports li {
+	width: 40%;
+	font-size: 12px;
+}
+}
+@media only screen and (max-width:680px) {
+.content-box-inner {
+	text-align: center;
+}
+.content-box-inner .img-right {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	padding: 0 0 10px 0;
+}
+}

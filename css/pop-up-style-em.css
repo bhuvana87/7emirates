@@ -1,0 +1,91 @@
+.pop-up-wrapper div { 
+    font-family: Verdana, Helvetica; 
+    font-size: 1em; 
+} 
+.pop-up { 
+   cursor: url(/pop-up/graphics/zoomin.cur), pointer; 
+    outline: none; 
+    text-decoration: none; 
+} 
+.pop-up-active-anchor img { 
+   visibility: hidden; 
+} 
+.pop-up img { 
+   border:0.0714em solid #cfd0cd; 
+   margin-bottom:1.071em;
+} 
+.pop-up:hover img { 
+  border:0.0714em solid #cfd0cd; 
+} 
+
+.pop-up-wrapper, .drop-shadow { 
+   background: white; 
+} 
+.pop-up-image { 
+    border-bottom: 0.0714em solid white; 
+} 
+.pop-up-image-blur { 
+} 
+.pop-up-caption { 
+    display: none; 
+    text-align:center; 
+    border-bottom: 0.063em solid white; 
+    font-family: Verdana, Helvetica; 
+    font-size: 0.85em !important; 
+    padding: 0.513em; 
+    background-color: #f6f6f6; 
+   color:#333333;
+} 
+.pop-up-loading { 
+    display: block; 
+   color: black; 
+   font-size: 8pt; 
+   font-family: sans-serif; 
+   font-weight: bold; 
+    text-decoration: none; 
+   padding: 0.125em; 
+   border: 0.063em solid black; 
+    background-color: white; 
+     
+    padding-left: 1.375em; 
+    background-image: url(/pop-up/graphics/loader.white.gif); 
+    background-repeat: no-repeat; 
+    background-position: 0.188em 0.063em; 
+} 
+
+a.pop-up-credits, 
+a.pop-up-credits i { 
+    padding: 0.125em; 
+    color: silver; 
+    text-decoration: none; 
+   font-size: 0.625em; 
+} 
+a.pop-up-credits:hover, 
+a.pop-up-credits:hover i { 
+    color: white; 
+    background-color: gray; 
+} 
+a.pop-up-full-expand { 
+   background: url(/pop-up/graphics/fullexpand.gif) no-repeat; 
+   display: block; 
+   margin: 0 0.625em 0.625em 0; 
+   width: 2.125em; 
+   height: 2.125em; 
+} 
+.pop-up-overlay { 
+   display: none; 
+} 
+
+/* Mac-style close button */ 
+.closebutton { 
+   position: relative; 
+   top: -0.938em; 
+   left: 0.938em; 
+   width: 1.875em; 
+   height: 1.875em; 
+   cursor: pointer; /* w3c */ 
+   background: url(/pop-up/graphics/close.png); 
+   /* For IE6, remove background and add filter */ 
+   _background: none; 
+   _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/pop-up/graphics/close.png', sizingMethod='scale'); 
+}
